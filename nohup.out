@@ -1,0 +1,94 @@
+2017-04-03T11:52:47.706-0700 I CONTROL  [initandlisten] MongoDB starting : pid=11064 port=27017 dbpath=/data/db 64-bit host=Nahoms-MacBook-Pro.local
+2017-04-03T11:52:47.707-0700 I CONTROL  [initandlisten] db version v3.2.11
+2017-04-03T11:52:47.707-0700 I CONTROL  [initandlisten] git version: 009580ad490190ba33d1c6253ebd8d91808923e4
+2017-04-03T11:52:47.707-0700 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2k  26 Jan 2017
+2017-04-03T11:52:47.707-0700 I CONTROL  [initandlisten] allocator: system
+2017-04-03T11:52:47.707-0700 I CONTROL  [initandlisten] modules: none
+2017-04-03T11:52:47.707-0700 I CONTROL  [initandlisten] build environment:
+2017-04-03T11:52:47.707-0700 I CONTROL  [initandlisten]     distarch: x86_64
+2017-04-03T11:52:47.707-0700 I CONTROL  [initandlisten]     target_arch: x86_64
+2017-04-03T11:52:47.707-0700 I CONTROL  [initandlisten] options: {}
+2017-04-03T11:52:47.708-0700 I -        [initandlisten] Detected data files in /data/db created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2017-04-03T11:52:47.708-0700 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=4G,session_max=20000,eviction=(threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),checkpoint=(wait=60,log_size=2GB),statistics_log=(wait=0),
+2017-04-03T11:52:48.438-0700 I CONTROL  [initandlisten] 
+2017-04-03T11:52:48.438-0700 I CONTROL  [initandlisten] ** WARNING: soft rlimits too low. Number of files is 256, should be at least 1000
+2017-04-03T11:52:48.494-0700 I NETWORK  [HostnameCanonicalizationWorker] Starting hostname canonicalization worker
+2017-04-03T11:52:48.498-0700 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/data/db/diagnostic.data'
+2017-04-03T11:52:48.505-0700 I NETWORK  [initandlisten] waiting for connections on port 27017
+2017-04-03T11:52:51.914-0700 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54012 #1 (1 connection now open)
+2017-04-03T12:09:58.359-0700 I NETWORK  [conn1] end connection 127.0.0.1:54012 (0 connections now open)
+2017-04-03T12:12:25.697-0700 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:56388 #2 (1 connection now open)
+2017-04-03T12:15:11.527-0700 I COMMAND  [conn2] dropDatabase todoapi starting
+2017-04-03T12:15:11.545-0700 I COMMAND  [conn2] dropDatabase todoapi finished
+2017-04-03T12:15:19.312-0700 I NETWORK  [conn2] end connection 127.0.0.1:56388 (0 connections now open)
+2017-04-03T12:15:26.720-0700 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:56763 #3 (1 connection now open)
+2017-04-03T12:15:26.721-0700 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:56764 #4 (2 connections now open)
+2017-04-03T12:18:43.545-0700 I NETWORK  [conn4] end connection 127.0.0.1:56764 (1 connection now open)
+2017-04-03T12:18:43.545-0700 I NETWORK  [conn3] end connection 127.0.0.1:56763 (0 connections now open)
+2017-04-03T12:19:10.490-0700 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:57237 #5 (1 connection now open)
+2017-04-03T12:19:39.572-0700 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:57299 #6 (2 connections now open)
+2017-04-03T12:19:39.572-0700 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:57300 #7 (3 connections now open)
+2017-04-03T12:19:51.218-0700 I COMMAND  [conn5] dropDatabase todoapi starting
+2017-04-03T12:19:51.218-0700 I COMMAND  [conn5] dropDatabase todoapi finished
+2017-04-03T12:20:08.085-0700 I NETWORK  [conn7] end connection 127.0.0.1:57300 (2 connections now open)
+2017-04-03T12:20:08.085-0700 I NETWORK  [conn6] end connection 127.0.0.1:57299 (2 connections now open)
+2017-04-03T12:20:08.518-0700 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:57357 #8 (2 connections now open)
+2017-04-03T12:20:08.518-0700 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:57358 #9 (3 connections now open)
+2017-04-03T12:20:17.383-0700 I NETWORK  [conn8] end connection 127.0.0.1:57357 (2 connections now open)
+2017-04-03T12:20:17.383-0700 I NETWORK  [conn9] end connection 127.0.0.1:57358 (2 connections now open)
+2017-04-03T12:20:17.828-0700 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:57379 #10 (2 connections now open)
+2017-04-03T12:20:17.828-0700 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:57380 #11 (3 connections now open)
+2017-04-03T12:20:23.617-0700 I NETWORK  [conn10] end connection 127.0.0.1:57379 (2 connections now open)
+2017-04-03T12:20:23.617-0700 I NETWORK  [conn11] end connection 127.0.0.1:57380 (2 connections now open)
+2017-04-03T12:20:24.063-0700 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:57393 #12 (2 connections now open)
+2017-04-03T12:20:24.063-0700 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:57394 #13 (3 connections now open)
+2017-04-03T12:20:27.769-0700 I NETWORK  [conn12] end connection 127.0.0.1:57393 (2 connections now open)
+2017-04-03T12:20:27.769-0700 I NETWORK  [conn13] end connection 127.0.0.1:57394 (2 connections now open)
+2017-04-03T12:20:30.318-0700 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:57407 #14 (2 connections now open)
+2017-04-03T12:20:30.318-0700 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:57408 #15 (3 connections now open)
+2017-04-03T12:27:11.631-0700 I NETWORK  [conn14] end connection 127.0.0.1:57407 (2 connections now open)
+2017-04-03T12:27:11.631-0700 I NETWORK  [conn15] end connection 127.0.0.1:57408 (2 connections now open)
+2017-04-03T12:27:12.056-0700 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:58230 #16 (2 connections now open)
+2017-04-03T12:27:12.056-0700 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:58231 #17 (3 connections now open)
+2017-04-03T12:28:53.771-0700 I NETWORK  [conn16] end connection 127.0.0.1:58230 (2 connections now open)
+2017-04-03T12:28:53.771-0700 I NETWORK  [conn17] end connection 127.0.0.1:58231 (2 connections now open)
+2017-04-03T12:28:54.235-0700 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:58437 #18 (2 connections now open)
+2017-04-03T12:28:54.235-0700 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:58438 #19 (3 connections now open)
+2017-04-03T12:28:57.672-0700 I NETWORK  [conn19] end connection 127.0.0.1:58438 (2 connections now open)
+2017-04-03T12:28:57.672-0700 I NETWORK  [conn18] end connection 127.0.0.1:58437 (1 connection now open)
+2017-04-03T12:29:12.685-0700 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:58482 #20 (2 connections now open)
+2017-04-03T12:29:12.685-0700 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:58483 #21 (3 connections now open)
+2017-04-03T12:29:16.831-0700 I NETWORK  [conn21] end connection 127.0.0.1:58483 (2 connections now open)
+2017-04-03T12:29:16.831-0700 I NETWORK  [conn20] end connection 127.0.0.1:58482 (1 connection now open)
+2017-04-03T12:29:45.286-0700 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:58554 #22 (2 connections now open)
+2017-04-03T12:29:45.287-0700 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:58555 #23 (3 connections now open)
+2017-04-03T12:30:00.359-0700 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:58587 #24 (4 connections now open)
+2017-04-03T12:32:24.525-0700 I NETWORK  [conn24] end connection 127.0.0.1:58587 (3 connections now open)
+2017-04-03T12:32:24.525-0700 I NETWORK  [conn22] end connection 127.0.0.1:58554 (3 connections now open)
+2017-04-03T12:32:24.525-0700 I NETWORK  [conn23] end connection 127.0.0.1:58555 (3 connections now open)
+2017-04-03T12:32:24.953-0700 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:58878 #25 (2 connections now open)
+2017-04-03T12:32:24.953-0700 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:58879 #26 (3 connections now open)
+2017-04-03T12:32:31.003-0700 I NETWORK  [conn26] end connection 127.0.0.1:58879 (2 connections now open)
+2017-04-03T12:32:31.003-0700 I NETWORK  [conn25] end connection 127.0.0.1:58878 (2 connections now open)
+2017-04-03T12:32:31.470-0700 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:58892 #27 (2 connections now open)
+2017-04-03T12:32:31.470-0700 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:58893 #28 (3 connections now open)
+2017-04-03T12:32:37.731-0700 I NETWORK  [conn28] end connection 127.0.0.1:58893 (2 connections now open)
+2017-04-03T12:32:37.731-0700 I NETWORK  [conn27] end connection 127.0.0.1:58892 (2 connections now open)
+2017-04-03T12:32:38.176-0700 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:58908 #29 (2 connections now open)
+2017-04-03T12:32:38.176-0700 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:58909 #30 (3 connections now open)
+2017-04-03T12:35:09.048-0700 I NETWORK  [conn30] end connection 127.0.0.1:58909 (2 connections now open)
+2017-04-03T12:35:09.048-0700 I NETWORK  [conn29] end connection 127.0.0.1:58908 (2 connections now open)
+2017-04-03T12:35:09.514-0700 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:59213 #31 (2 connections now open)
+2017-04-03T12:35:09.515-0700 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:59214 #32 (3 connections now open)
+2017-04-03T12:35:43.311-0700 I NETWORK  [conn32] end connection 127.0.0.1:59214 (2 connections now open)
+2017-04-03T12:35:43.311-0700 I NETWORK  [conn31] end connection 127.0.0.1:59213 (2 connections now open)
+2017-04-03T12:35:43.725-0700 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:59283 #33 (2 connections now open)
+2017-04-03T12:35:43.725-0700 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:59284 #34 (3 connections now open)
+2017-04-03T12:37:29.150-0700 I NETWORK  [conn33] end connection 127.0.0.1:59283 (2 connections now open)
+2017-04-03T12:37:29.150-0700 I NETWORK  [conn34] end connection 127.0.0.1:59284 (2 connections now open)
+2017-04-03T12:37:29.654-0700 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:59497 #35 (2 connections now open)
+2017-04-03T12:37:29.654-0700 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:59498 #36 (3 connections now open)
+2017-04-03T12:37:55.508-0700 I NETWORK  [conn35] end connection 127.0.0.1:59497 (2 connections now open)
+2017-04-03T12:37:55.508-0700 I NETWORK  [conn36] end connection 127.0.0.1:59498 (2 connections now open)
+2017-04-03T12:37:55.941-0700 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:59552 #37 (2 connections now open)
+2017-04-03T12:37:55.941-0700 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:59553 #38 (3 connections now open)
